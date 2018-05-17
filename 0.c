@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main()
+int main ()
 {
-    int c;
+	int c;
 
-    printf("Enter a value :");
-    c = getchar();
+	printf ("Enter a value :");
+	c = getchar ();
 
-    printf("\nYou entered: ");
-    putchar(c);
-    printf("\n");
-    return 0;
+	printf ("\nYou entered: ");
+	putchar (c);
+	printf ("\n");
+	return 0;
 }
